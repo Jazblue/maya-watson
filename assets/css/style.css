@@ -376,6 +376,14 @@ header {
     color: #7f8c8d;
 }
 
+.about-photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
 .placeholder-icon {
     font-size: 3rem;
     margin-bottom: 1rem;

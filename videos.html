@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maya's Videos</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Maya Watson</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="videos.html" class="active">Videos</a></li>
+                <li><a href="journal.html">Journal</a></li>
+            </ul>
+            <div class="mobile-menu-icon">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="journal.html">Journal</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Videos</h1>
+            <p>Moving pictures and moments in time</p>
+        </div>
+    </section>
+
+    <section class="videos-intro">
+        <div class="container">
+            <p>I take more videos than I probably should—mostly of tennis matches I'm playing in, London scenes that catch my eye, and the occasional attempt to document something Matt does that's mildly entertaining.</p>
+            <p>This section will grow as I add more clips. For now, here are some placeholders showing where your videos will go.</p>
+        </div>
+    </section>
+
+    <section class="video-grid">
+        <div class="container">
+            <div class="video-item">
+                <div class="video-placeholder">
+                    <i class="fas fa-play-circle video-icon"></i>
+                    <span>Tennis match highlights</span>
+                </div>
+                <div class="video-info">
+                    <h3>Club Tournament - Summer 2024</h3>
+                    <p>My backhand finally cooperated for one set. Matt filmed this from the sidelines and complained about my grunting.</p>
+                    <div class="video-meta">
+                        <span><i class="fas fa-clock"></i> 2:18</span>
+                        <span><i class="fas fa-calendar"></i> July 12, 2024</span>
+                    </div>
+                </div>
+            </div>
+            <div class="video-item">
+                <div class="video-placeholder">
+                    <i class="fas fa-play-circle video-icon"></i>
+                    <span>London walk</span>
+                </div>
+                <div class="video-info">
+                    <h3>South Bank Stroll</h3>
+                    <p>A rainy afternoon walk with too many stops for coffee and watching street performers.</p>
+                    <div class="video-meta">
+                        <span><i class="fas fa-clock"></i> 1:45</span>
+                        <span><i class="fas fa-calendar"></i> October 3, 2024</span>
+                    </div>
+                </div>
+            </div>
+            <div class="video-item">
+                <div class="video-placeholder">
+                    <i class="fas fa-play-circle video-icon"></i>
+                    <span>Behind the scenes</span>
+                </div>
+                <div class="video-info">
+                    <h3>Photoshoot Outtakes</h3>
+                    <p>What happens when I try to look serious and my dog decides to photobomb.</p>
+                    <div class="video-meta">
+                        <span><i class="fas fa-clock"></i> 0:52</span>
+                        <span><i class="fas fa-calendar"></i> September 18, 2024</span>
+                    </div
+                </div>
+            </div>
+            <div class="video-item">
+                <div class="video-placeholder">
+                    <i class="fas fa-play-circle video-icon"></i>
+                    <span>Tennis lesson</span>
+                </div>
+                <div class="video-info">
+                    <h3>Working on my serve</h3>
+                    <p>Spoiler: It still needs work. But the coach is patient and Matt brought snacks.</p>
+                    <div class="video-meta">
+                        <span><i class="fas fa-clock"></i> 3:02</span>
+                        <span><i class="fas fa-calendar"></i> August 22, 2024</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="add-videos-note">
+        <div class="container">
+            <h2>Adding Your Videos</h2>
+            <p>To add your own MP4 video files:</p>
+            <ol>
+                <li>Place your video files in the <code>assets/videos/</code> folder</li>
+                <li>Name them descriptively (e.g., <code>tennis-match-july.mp4</code>)</li>
+                <li>Create a new <code>&lt;div class="video-item"&gt;</code> block in this HTML file following the existing pattern</li>
+                <li>Update the placeholder with your video file path and add a description</li>
+            </ol>
+            <p>For optimal web performance, consider compressing videos to under 10MB each and using the MP4 format with H.264 encoding.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Maya Watson. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
